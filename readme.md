@@ -28,15 +28,14 @@ module "demo" {
 ```
 
 Outputs
-=======
+-------
 
- - `kubeconfig` - Outputs the kubeconfig in a raw string format.
- - `kubeconfig_host` - Outputs the cloudspace host from the kubeconfig.
- - `kubeconfig_token` - Outputs the cloudspace token from the kubeconfig.
- - `kubeconfig_insecure` - Returns the insecure value from the kubeconfig.
-
+- `kubeconfig` - Outputs the kubeconfig in a raw string format.
+- `kubeconfig_host` - Outputs the cloudspace host from the kubeconfig.
+- `kubeconfig_token` - Outputs the cloudspace token from the kubeconfig.
+- `kubeconfig_insecure` - Returns the insecure value from the kubeconfig.
 
 Authors
-=======
+-------
 
 Jack Maloney
