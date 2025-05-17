@@ -3,7 +3,6 @@ resource "spot_cloudspace" "cloudspace" {
   region           = var.inst_region
   hacontrol_plane  = var.inst_hacontrol_plane
   wait_until_ready = var.inst_wait_until_ready
-  deployment_type  = "gen2"
 }
 
 resource "spot_spotnodepool" "node_pool" {
